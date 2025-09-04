@@ -1,6 +1,14 @@
 # Insurance Fraud Detection with ENB Framework
 
 This repository contains the code and notebooks used in my MSc Applied Research Project:  
+This repo contains the code only.
+
+---
+
+## Quick Start (Colab)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/drive/1oL9BpKfbOIsR0TelrOeB8cQ196ilDizJ?usp=sharing)
 
 
 
