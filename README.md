@@ -57,7 +57,7 @@ scenarios = {
 b_scenario = scenarios["Base"]
 ```
 ```python
-file_path = "https://raw.githubusercontent.com/jaolc/insurance-fraud-enb/main/insurance_claims.xlsx"
+file_path = "https://raw.githubusercontent.com/jaolc/insurance-fraud-enb/main/Worksheet in Case Study question 2.xlsx"
 
 # %pip -q install openpyxl
 import pandas as pd, io, requests
