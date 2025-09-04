@@ -57,9 +57,13 @@ scenarios = {
 b_scenario = scenarios["Base"]
 ```
 ```python
-#file_path = '/content/drive/MyDrive/Worksheet in Case Study question 2.xlsx'
-df = pd.read_excel(file_path)
-print(df.shape)
+file_path = "https://raw.githubusercontent.com/jaolc/insurance-fraud-enb/main/insurance_claims.xlsx"
+
+# %pip -q install openpyxl
+import pandas as pd, io, requests
+buf = requests.get(file_path).content
+df = pd.read_excel(io.BytesIO(buf), engine="openpyxl")
+#print(df.shape)
 #df.head(2)
 ```
 # Data Preprocessing
